@@ -5,6 +5,7 @@ key = load_key.load_key()
 fer = Fernet(key)
 
 def add_account():
+    '''THis Funktion will be used to add an account in password.txt'''
     name = input("Account Name: ")
     pwd = input("Password: ")
     while True:
@@ -20,6 +21,7 @@ def add_account():
 
 
 def view_account():
+    '''This funktion will be used to view all the accounts in password.txt'''
     with open('password.txt', 'r') as passwordFile:
         for line in passwordFile.readlines():
             data = line.rstrip()
