@@ -1,7 +1,7 @@
 # Password Manager (Based on TechWithTim Tutorial)
 
 This project is a modified version of the password manager originally created by  
-**TechWithTim** in his beginner Python project series.
+**TechWithTim** in his Python project series.
 
 Original source code:  
 https://github.com/techwithtim/5-Python-Projects-For-Beginners/blob/main/password_manager.py
